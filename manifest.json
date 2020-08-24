@@ -1,0 +1,15 @@
+{
+    "manifest_version":2,
+    "name" : "Quick Links",
+    "description":"Quick links to some platforms",
+    "version": "1.0.0",
+    "icons":{"128":"star.png"},
+    
+    "browser_action":{
+        "default_popup":"popup.html",
+        "default_icon" :{"128": "star.png"}
+    },
+   
+    "permissions":["activeTab"
+         ]
+}
